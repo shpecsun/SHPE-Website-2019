@@ -4623,7 +4623,7 @@ button.close {
   .bs-popover-top .arrow::before, .bs-popover-auto[x-placement^="top"] .arrow::before {
     bottom: 0;
     border-top-color: rgba(0, 0, 0, 0.25); }
-  
+
   .bs-popover-top .arrow::after,
   .bs-popover-auto[x-placement^="top"] .arrow::after {
     bottom: 1px;
@@ -4643,7 +4643,7 @@ button.close {
   .bs-popover-right .arrow::before, .bs-popover-auto[x-placement^="right"] .arrow::before {
     left: 0;
     border-right-color: rgba(0, 0, 0, 0.25); }
-  
+
   .bs-popover-right .arrow::after,
   .bs-popover-auto[x-placement^="right"] .arrow::after {
     left: 1px;
@@ -4660,7 +4660,7 @@ button.close {
   .bs-popover-bottom .arrow::before, .bs-popover-auto[x-placement^="bottom"] .arrow::before {
     top: 0;
     border-bottom-color: rgba(0, 0, 0, 0.25); }
-  
+
   .bs-popover-bottom .arrow::after,
   .bs-popover-auto[x-placement^="bottom"] .arrow::after {
     top: 1px;
@@ -4689,7 +4689,7 @@ button.close {
   .bs-popover-left .arrow::before, .bs-popover-auto[x-placement^="left"] .arrow::before {
     right: 0;
     border-left-color: rgba(0, 0, 0, 0.25); }
-  
+
   .bs-popover-left .arrow::after,
   .bs-popover-auto[x-placement^="left"] .arrow::after {
     right: 1px;
@@ -8408,7 +8408,7 @@ textarea.form-control {
   color: #fff; }
 
 .heading-section.heading-section-white p {
-  color: rgba(255, 255, 255, 0.9); }
+  color: rgba(255, 255, 0, 0); }
 
 .hotel-img,
 .img,
@@ -8421,7 +8421,7 @@ textarea.form-control {
 
 .testimony-section {
   position: relative;
-  background: #fcd307; }
+  background: #000000; }
   .testimony-section .owl-carousel {
     margin: 0; }
   .testimony-section .owl-carousel .owl-stage-outer {
@@ -8432,8 +8432,8 @@ textarea.form-control {
     position: absolute;
     top: 100%;
     width: 100%; }
-    .testimony-section .owl-nav .owl-prev,
-    .testimony-section .owl-nav .owl-next {
+    .testimony-section .owl-nav .owl-next,
+    .testimony-section .owl-nav .owl-prev {
       position: absolute;
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
@@ -8446,32 +8446,32 @@ textarea.form-control {
       -ms-transition: all 0.3s ease;
       transition: all 0.3s ease;
       opacity: 0; }
-      .testimony-section .owl-nav .owl-prev span:before,
-      .testimony-section .owl-nav .owl-next span:before {
+      .testimony-section .owl-nav .owl-next span:before,
+      .testimony-section .owl-nav .owl-prev span:before {
         font-size: 30px;
-        color: rgba(0, 0, 0, 0.2);
+        color: rgba(0, 0, 1, 1);
         -moz-transition: all 0.3s ease;
         -o-transition: all 0.3s ease;
         -webkit-transition: all 0.3s ease;
         -ms-transition: all 0.3s ease;
         transition: all 0.3s ease; }
-      .testimony-section .owl-nav .owl-prev:hover span:before, .testimony-section .owl-nav .owl-prev:focus span:before,
-      .testimony-section .owl-nav .owl-next:hover span:before,
-      .testimony-section .owl-nav .owl-next:focus span:before {
+      .testimony-section .owl-nav .owl-next:hover span:before, .testimony-section .owl-nav .owl-prev:focus span:before,
+      .testimony-section .owl-nav .owl-prev:hover span:before,
+      .testimony-section .owl-nav .owl-prev:focus span:before {
         color: #000000; }
-    .testimony-section .owl-nav .owl-prev {
+    .testimony-section .owl-nav .owl-next {
       left: 50%;
       margin-left: -80px; }
-    .testimony-section .owl-nav .owl-next {
+    .testimony-section .owl-nav .owl-prev {
       right: 50%;
       margin-right: -80px; }
-  .testimony-section:hover .owl-nav .owl-prev,
-  .testimony-section:hover .owl-nav .owl-next {
-    opacity: 1; }
+  .testimony-section:hover .owl-nav .owl-next,
   .testimony-section:hover .owl-nav .owl-prev {
+    opacity: 1; }
+  .testimony-section:hover .owl-nav .owl-next {
     left: 50%;
     margin-left: -80px; }
-  .testimony-section:hover .owl-nav .owl-next {
+  .testimony-section:hover .owl-nav .owl-prev {
     right: 50%;
     margin-right: -80px; }
   .testimony-section .owl-dots {
@@ -8484,12 +8484,12 @@ textarea.form-control {
       background: rgba(255, 255, 255, 0.4); }
       .testimony-section .owl-dots .owl-dot.active {
         background: #fff; }
-
+/* This is where you change the color of the background and letters for the board pictures*/
 .testimony-wrap {
   display: block;
   position: relative;
-  background: rgba(255, 255, 255, 0.2);
-  color: rgba(0, 0, 0, 0.8); }
+  background: rgba(180, 0, 0, 255);
+  color: rgba(255, 255, 255, 255); }
   .testimony-wrap .user-img {
     width: 100px;
     height: 100px;
@@ -8514,7 +8514,7 @@ textarea.form-control {
     font-weight: 400;
     font-size: 18px;
     margin-bottom: 0;
-    color: #000000; }
+    color: #FFFFFF; } /*      This is to change the color in the name for the quotes     */
   .testimony-wrap .position {
     font-size: 13px; }
 
