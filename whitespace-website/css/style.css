@@ -305,14 +305,14 @@ h1, h2, h3, h4, h5, h6,
   margin-bottom: 0.5rem;
   font-family: inherit;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.25;
   color: inherit; }
-
+/* ----------------     Change the fontsize           ----------*/
 h1, .h1 {
   font-size: 2.5rem; }
 
 h2, .h2 {
-  font-size: 2rem; }
+  font-size: 3rem; }
 
 h3, .h3 {
   font-size: 1.75rem; }
@@ -324,7 +324,7 @@ h5, .h5 {
   font-size: 1.25rem; }
 
 h6, .h6 {
-  font-size: 1rem; }
+  font-size: .9rem; }
 
 .lead {
   font-size: 1.25rem;
@@ -7555,7 +7555,7 @@ h1, h2, h3, h4, h5,
   background: #000000; }
   .hero-wrap .forth {
     width: 20%;
-    height: 750px; }
+    height: 720px; }
     @media (max-width: 767.98px) {
       .hero-wrap .forth {
         width: 0%; } }
@@ -7573,12 +7573,13 @@ h1, h2, h3, h4, h5,
           height: 100%;
           content: '';
           background: #000000; } }
+          /*  This is where you change the position of the welcome in the home and width */
     .hero-wrap .forth .text {
       position: absolute;
-      top: 50%;
+      top: 20%;
       left: 0;
-      right: 0;
-      width: 100%;
+      right: 100%;
+      width: 40%;
       padding: 0 15px;
       margin: 0 auto;
       -webkit-transform: translateY(-50%);
