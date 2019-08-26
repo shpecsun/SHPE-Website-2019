@@ -2963,7 +2963,7 @@ input[type="button"].btn-block {
   background-color: #78d5ef; }
 
 .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E"); }
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E"); }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before {
   background-color: #78d5ef; }
@@ -7448,7 +7448,7 @@ h1, h2, h3, h4, h5,
       background: #fcd307;
       border: 1px solid #fcd307; }
   .ftco-navbar-light .navbar-nav > .nav-item.cta.cta-colored span {
-    border-color: #fcd307; }
+    border-color: #8b0000; }
   .ftco-navbar-light .navbar-nav > .nav-item.active > a {
     color: #000000; }
     .ftco-navbar-light .navbar-nav > .nav-item.active > a:after {
@@ -7882,7 +7882,7 @@ h1, h2, h3, h4, h5,
     width: 100%; }
     .ftco-services .services .media-body h3 {
       font-weight: 500;
-      text-transform: uppercase;
+      text-transform: normal;
       letter-spacing: 1px;
       font-size: 18px; }
 
@@ -7985,7 +7985,7 @@ h1, h2, h3, h4, h5,
     width: calc(100% - 80px); }
     .services-wrap .media-body h3 {
       font-weight: 500;
-      text-transform: uppercase;
+      text-transform: normal;
       letter-spacing: 1px;
       font-size: 18px; }
   .services-wrap:hover .icon {
@@ -8377,7 +8377,7 @@ textarea.form-control {
   margin-bottom: 0;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #fcd307; }
+  color: #dc143c; }
 
 .heading-section h2 {
   font-size: 50px;
@@ -8705,7 +8705,7 @@ textarea.form-control {
       .comment-list li .comment-body h3 {
         font-size: 20px; }
       .comment-list li .comment-body .meta {
-        text-transform: uppercase;
+        text-transform: normal;
         font-size: 13px;
         letter-spacing: .1em;
         color: #ccc; }
