@@ -305,7 +305,7 @@ h1, h2, h3, h4, h5, h6,
   margin-bottom: 0.5rem;
   font-family: inherit;
   font-weight: 500;
-  line-height: 1.25;
+  line-height: 1.5;
   color: inherit; }
 /* ----------------     Change the fontsize           ----------*/
 h1, .h1 {
@@ -321,7 +321,7 @@ h4, .h4 {
   font-size: 1.5rem; }
 
 h5, .h5 {
-  font-size: 1.25rem; }
+  font-size: 2.5rem; }
 
 h6, .h6 {
   font-size: .9rem; }
@@ -7257,11 +7257,13 @@ a.text-dark:hover, a.text-dark:focus {
     page-break-inside: avoid; }
   p,
   h2,
-  h3 {
+  h3 ,
+  h5{
     orphans: 3;
     widows: 3; }
   h2,
-  h3 {
+  h3,
+  h5 {
     page-break-after: avoid; }
   @page {
     size: a3; }
@@ -7576,7 +7578,7 @@ h1, h2, h3, h4, h5,
           /*  This is where you change the position of the welcome in the home and width */
     .hero-wrap .forth .text {
       position: absolute;
-      top: 20%;
+      top: 30%;
       left: 0;
       right: 100%;
       width: 40%;
@@ -7885,6 +7887,11 @@ h1, h2, h3, h4, h5,
       text-transform: normal;
       letter-spacing: 1px;
       font-size: 18px; }
+      .ftco-services .services .media-body h5 {
+        font-weight: 500;
+        text-transform: normal;
+        letter-spacing: 1px;
+        font-size: 18px; }
 
 .getaquote-form {
   -webkit-box-shadow: 0px 4px 34px -19px rgba(0, 0, 0, 0.38);
@@ -7899,6 +7906,11 @@ h1, h2, h3, h4, h5,
     background: #fcd307;
     color: #fff;
     font-size: 24px; }
+    .getaquote-form h5 {
+      padding: 20px;
+      background: #fcd307;
+      color: #fff;
+      font-size: 24px; }
   .getaquote-form .wrap {
     padding: 30px; }
   .getaquote-form .btn-primary {
@@ -7988,6 +8000,11 @@ h1, h2, h3, h4, h5,
       text-transform: normal;
       letter-spacing: 1px;
       font-size: 18px; }
+      .services-wrap .media-body h5 {
+        font-weight: 500;
+        text-transform: normal;
+        letter-spacing: 1px;
+        font-size: 18px; }
   .services-wrap:hover .icon {
     background: #fcd307; }
     .services-wrap:hover .icon span {
@@ -8050,8 +8067,15 @@ h1, h2, h3, h4, h5,
     .project .text h3 {
       font-size: 28px;
       font-weight: 600; }
+      .project .text h5 {
+        font-size: 28px;
+        font-weight: 600; }
+
       .project .text h3 a {
         color: #fff; }
+        .project .text h5 a {
+          color: #fff; }
+
     .project .text span {
       color: #fcd307;
       text-transform: uppercase;
@@ -8086,6 +8110,11 @@ h1, h2, h3, h4, h5,
       font-size: 20px;
       font-weight: 500;
       margin-bottom: 0; }
+      .staff .text h5 {
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 0; }
+
     .staff .text .position {
       color: #fcd307;
       display: block;
@@ -8263,6 +8292,8 @@ textarea.form-control {
 
 .about-author .desc h3 {
   font-size: 24px; }
+  .about-author .desc h5 {
+    font-size: 24px; }
 
 .ftco-section {
   padding: 6em 0;
@@ -8389,6 +8420,10 @@ textarea.form-control {
 .heading-section h3 {
   font-size: 20px;
   color: #fcd307; }
+  .heading-section h5 {
+    font-size: 20px;
+    color: #fcd307; }
+
 
 .heading-section.heading-section-with-line {
   position: relative; }
@@ -8704,6 +8739,8 @@ textarea.form-control {
       width: calc(100% - 80px); }
       .comment-list li .comment-body h3 {
         font-size: 20px; }
+        .comment-list li .comment-body h5 {
+          font-size: 20px; }
       .comment-list li .comment-body .meta {
         text-transform: normal;
         font-size: 13px;
@@ -8747,6 +8784,9 @@ textarea.form-control {
   .subs-wrap h3 {
     color: #fff;
     font-size: 30px !important; }
+    .subs-wrap h5 {
+      color: #fff;
+      font-size: 30px !important; }
 
 .subscribe-form .form-group {
   position: relative;
@@ -8810,6 +8850,11 @@ textarea.form-control {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 25px; }
+
+    .sidebar-box h5 {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 25px; }
 
 .categories, .sidelink {
   padding: 0; }
