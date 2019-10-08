@@ -307,7 +307,7 @@ h1, h2, h3, h4, h5, h6,
   font-weight: 500;
   line-height: 1.5;
   color: inherit; }
-/* ----------------     Change the fontsize           ----------*/
+                      /* ----------------     Change the fontsize           ----------*/
 h1, .h1 {
   font-size: 2.5rem; }
 
@@ -358,7 +358,7 @@ hr {
 
 small,
 .small {
-  font-size: 80%;
+  font-size: 76%;
   font-weight: 400; }
 
 mark,
@@ -8116,7 +8116,7 @@ h1, h2, h3, h4, h5,
         margin-bottom: 0; }
 
     .staff .text .position {
-      color: #fcd307;
+      color: #FF0000;
       display: block;
       text-transform: uppercase;
       letter-spacing: 2px;
