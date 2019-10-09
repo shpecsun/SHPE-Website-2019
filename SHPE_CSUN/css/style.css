@@ -8939,13 +8939,6 @@ textarea.form-control {
   animation: loader-dash 1.5s ease-in-out infinite;
   stroke-linecap: round; }
 
-  .rotateimg90 {
-    -webkit-transform:rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg);
-  }
 @-webkit-keyframes loader-rotate {
   100% {
     -webkit-transform: rotate(360deg);
