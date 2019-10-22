@@ -2961,6 +2961,7 @@ input[type="button"].btn-block {
 
 .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
   background-color: #78d5ef; }
+\\this is where the wensite file goes through!!
 
 .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E"); }
@@ -7660,10 +7661,10 @@ h1, h2, h3, h4, h5,
           transform: translateY(-50%);
           background: rgba(255, 255, 255, 0.8); }
   .hero-wrap .third {
-    width: 80%;
+    width: 70%;
     position: relative;
     height: 750px; }
-    @media (max-width: 767.98px) {
+    @media (max-width: 800.98px) {
       .hero-wrap .third {
         width: 100%; } }
     .hero-wrap .third .icon {
