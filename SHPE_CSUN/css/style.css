@@ -38,7 +38,9 @@
 *::before,
 *::after {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box; 
+
+}
 
 html {
   font-family: sans-serif;
@@ -7330,7 +7332,8 @@ h1, h2, h3, h4, h5,
         font-size: 20px; } }
   .ftco-navbar-light .navbar-brand {
     color: #fff;
-    background: #000000; }
+    /* background: #000000;  */
+  }
     @media (min-width: 992px) {
       .ftco-navbar-light .navbar-brand {
         padding: 30px 30px 30px 0;
@@ -7342,7 +7345,8 @@ h1, h2, h3, h4, h5,
           bottom: 0;
           content: '';
           width: 360%;
-          background: #000000; } }
+          /* background: #000000;  */
+        } }
     .ftco-navbar-light .navbar-brand.navbar-black {
       color: #fff; }
       @media (max-width: 991.98px) {
@@ -8941,6 +8945,13 @@ textarea.form-control {
   animation: loader-dash 1.5s ease-in-out infinite;
   stroke-linecap: round; }
 
+#icon{
+  margin-left:auto;
+  margin-right:auto;
+  height: 60px;
+  width: 300px;
+}  
+
 @-webkit-keyframes loader-rotate {
   100% {
     -webkit-transform: rotate(360deg);
@@ -8972,3 +8983,4 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
